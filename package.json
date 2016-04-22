@@ -1,0 +1,19 @@
+{
+  "name": "lamassu-twilio",
+  "version": "1.0.0",
+  "description": "lamassu-server plugin for Twilio sms sending",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lamassu/lamassu-twilio.git"
+  },
+  "author": "Josh Harvey <josh@lamassu.is> (https://lamassu.is/)",
+  "license": "UNLICENSE",
+  "bugs": {
+    "url": "https://github.com/lamassu/lamassu-twilio/issues"
+  },
+  "homepage": "https://github.com/lamassu/lamassu-twilio"
+}
