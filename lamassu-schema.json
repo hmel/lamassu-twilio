@@ -1,0 +1,17 @@
+{
+  "jsonSchema": {
+    "title": "Twilio",
+    "type": "object",
+    "required": ["accountSid", "authToken", "fromNumber", "toNumber"],
+    "properties": {
+      "accountSid": {"type": "string", "title": "Account SID"},
+      "authToken": {"type": "string", "title": "Auth Token"},
+      "fromNumber": {"type": "string", "title": "Originating Number"},
+      "toNumber": {"type": "string", "title": "Destination Number"}
+    }
+  },
+  "uiSchema": {
+    "ui:order": ["accountSid", "authToken", "fromNumber", "toNumber"],
+    "authToken": {"ui:widget": "password"}
+  }
+}
